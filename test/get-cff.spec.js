@@ -1,7 +1,6 @@
-import test from 'ava';
 import isPromise from 'is-promise';
-import getCff from '../src/index.js';
+import getCff from '../src/index';
 
-test('processing should return promise', t => {
-	t.true(isPromise(getCff()));
+test('processing should return promise', () => {
+	expect(isPromise(getCff())).toBeTruthy();
 });
