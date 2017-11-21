@@ -26,9 +26,9 @@ npm i -S get-cff
 ```js
 import getCff from 'get-cff';
 
-const config = getCff('path/to/config/file');
-
-console.log(config);
+getCff('path/to/config/file').then(config => {
+    console.log(config);
+});
 
 ```
 *Returns config object {property: value}*
