@@ -16,6 +16,7 @@
     "node": ">=5"
   },
   "scripts": {
+    "precommit": "clinton && lint-staged",
     "commitmsg": "commitlint --extends=@commitlint/config-angular -e",
     "postpublish": "conventional-changelog -i changelog.md -s -r 0 && git commit -am \"chore: Update changelog\"",
     "patch": "np patch --any-branch --no-yarn",
@@ -23,9 +24,6 @@
     "major": "np major --any-branch --no-yarn",
     "prepublish": "npm run build",
     "build": "rimraf lib && babel src -d lib",
-    "lintjs": "eslint ./{src,test}/*.js",
-    "lintmd": "eslint --ext md --rule indent: [error, 4] .",
-    "pretest": "clinton && npm run lintjs && npm run lintmd",
     "test": "jest && codecov"
   },
   "files": [
@@ -63,8 +61,13 @@
     "husky": "^0.14.3",
     "is-promise": "^2.1.0",
     "jest": "^21.2.1",
+    "lint-staged": "^5.0.0",
     "np": "^2.14.1",
     "rimraf": "^2.6.1"
+  },
+  "lint-staged": {
+    "*.{js,html}": "eslint",
+    "*.md": "eslint --rule indent: [error, 4] ."
   },
   "babel": {
     "presets": [
