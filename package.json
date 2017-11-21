@@ -22,7 +22,7 @@
     "patch": "np patch --any-branch --no-yarn",
     "minor": "np minor --any-branch --no-yarn",
     "major": "np major --any-branch --no-yarn",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "rimraf lib && babel src -d lib",
     "test": "jest && codecov"
   },
