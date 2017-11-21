@@ -7,7 +7,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/get-cff.svg?style=flat-square)](https://www.npmjs.com/package/get-cff)[![npm](https://img.shields.io/npm/dt/get-cff.svg?style=flat-square)](https://www.npmjs.com/package/get-cff)
 
 ## Why ?
-Auto detect type file and load from file. Support:
+Auto detect type file and import config from file. Support:
 - [x] js
 - [x] json
 - [x] dot file
@@ -26,9 +26,10 @@ npm i -S get-cff
 ```js
 import getCff from 'get-cff';
 
-getCff('path/to/config/file').then(config => {
-    console.log(config);
-});
+getCff('path/to/config/file')
+    .then(config => {
+        console.log(config);
+    });
 
 ```
 *Returns config object {property: value}*
@@ -39,7 +40,3 @@ getCff('path/to/config/file').then(config => {
 Type: `string`  
 Default: ''  
 Description: *path to you config file*  
-
-## LICENSE
-
-> MIT License [MIT](license)
