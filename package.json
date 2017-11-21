@@ -119,5 +119,9 @@
         "off"
       ]
     }
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
