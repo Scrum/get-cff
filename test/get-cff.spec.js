@@ -23,3 +23,9 @@ test('processing should return data from dot file', async () => {
 	const config = await getCff(file);
 	expect(config.property).toBe('value');
 });
+
+test('processing should return data from yaml file', async () => {
+	const file = path.resolve('test/files/yamlFile.yml');
+	const config = await getCff(file);
+	expect(config.property).toBe('value');
+});

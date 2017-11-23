@@ -1,6 +1,22 @@
-<a name="0.0.0"></a>
-# 0.0.0 (2017-11-21)
+<a name="0.1.1"></a>
+## 0.1.1 (2017-11-23)
 
+* 0.1.1 ([d7ccab8](https://github.com/gitScrum/get-cff/commit/d7ccab8))
+* chore: Update changelog ([8e1fb49](https://github.com/gitScrum/get-cff/commit/8e1fb49))
+* chore: update depDev ([5445993](https://github.com/gitScrum/get-cff/commit/5445993))
+* docs: check yaml support ([663f81e](https://github.com/gitScrum/get-cff/commit/663f81e))
+
+
+
+<a name="0.1.0"></a>
+# 0.1.0 (2017-11-23)
+
+* 0.1.0 ([b2ad299](https://github.com/gitScrum/get-cff/commit/b2ad299))
+* Initial commit ([70b6c93](https://github.com/gitScrum/get-cff/commit/70b6c93))
+* Rename LICENSE to license ([7875a5b](https://github.com/gitScrum/get-cff/commit/7875a5b))
+* Update readme.md ([13341f6](https://github.com/gitScrum/get-cff/commit/13341f6))
+* Update readme.md ([f3fa5ba](https://github.com/gitScrum/get-cff/commit/f3fa5ba))
+* Update readme.md ([82bc021](https://github.com/gitScrum/get-cff/commit/82bc021))
 * chore: add flatry ([d1c366c](https://github.com/gitScrum/get-cff/commit/d1c366c))
 * chore: add lint stage ([271a006](https://github.com/gitScrum/get-cff/commit/271a006))
 * chore: add readme ([054c3d1](https://github.com/gitScrum/get-cff/commit/054c3d1))
@@ -12,12 +28,16 @@
 * chore: init state ([3f9806c](https://github.com/gitScrum/get-cff/commit/3f9806c))
 * chore: jest as global ([0a78ff8](https://github.com/gitScrum/get-cff/commit/0a78ff8))
 * chore: off ava ([e471b1c](https://github.com/gitScrum/get-cff/commit/e471b1c))
+* chore: Update changelog ([9652dc1](https://github.com/gitScrum/get-cff/commit/9652dc1))
 * chore: update depdev ([64f0cea](https://github.com/gitScrum/get-cff/commit/64f0cea))
-* chore: update depDev ([cc79784](https://github.com/gitScrum/get-cff/commit/cc79784))
 * chore: update depDev ([635c172](https://github.com/gitScrum/get-cff/commit/635c172))
+* chore: update depDev ([cc79784](https://github.com/gitScrum/get-cff/commit/cc79784))
+* chore: update depDev ([e38b10d](https://github.com/gitScrum/get-cff/commit/e38b10d))
 * feat: add read methods ([76a1f97](https://github.com/gitScrum/get-cff/commit/76a1f97))
+* feat: add support yaml file, close #3 ([4effd93](https://github.com/gitScrum/get-cff/commit/4effd93)), closes [#3](https://github.com/gitScrum/get-cff/issues/3)
 * test: add test files ([ca62d62](https://github.com/gitScrum/get-cff/commit/ca62d62))
 * test: add tests for three type file ([8fce7ae](https://github.com/gitScrum/get-cff/commit/8fce7ae))
+* test: for yaml file ([d357f8d](https://github.com/gitScrum/get-cff/commit/d357f8d))
 * test: rewrite to jest ([3a68175](https://github.com/gitScrum/get-cff/commit/3a68175))
 * docs: add badges codecov ([4894106](https://github.com/gitScrum/get-cff/commit/4894106))
 * docs: added description ([b65dc5d](https://github.com/gitScrum/get-cff/commit/b65dc5d))
@@ -26,8 +46,6 @@
 * ci: remove after scripts ([f2e0a27](https://github.com/gitScrum/get-cff/commit/f2e0a27))
 * ci: skip appveyor coverage ([609967f](https://github.com/gitScrum/get-cff/commit/609967f))
 * fix: typo ([e64dc09](https://github.com/gitScrum/get-cff/commit/e64dc09))
-* Initial commit ([70b6c93](https://github.com/gitScrum/get-cff/commit/70b6c93))
-* Rename LICENSE to license ([7875a5b](https://github.com/gitScrum/get-cff/commit/7875a5b))
 
 
 

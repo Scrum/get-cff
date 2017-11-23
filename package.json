@@ -1,6 +1,6 @@
 {
   "name": "get-cff",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Getting config from file",
   "license": "MIT",
   "repository": "gitScrum/get-cff",
@@ -36,7 +36,9 @@
     "json",
     "dot file"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "js-yaml": "^3.10.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^4.2.2",
     "@commitlint/config-angular": "^4.2.1",
