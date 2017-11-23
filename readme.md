@@ -11,7 +11,7 @@ Auto detect type file and import config from file. Support:
 - [x] js
 - [x] json
 - [x] dot file
-- [ ] yml
+- [x] yml
 
 ## Install
 
