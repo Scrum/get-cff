@@ -1,3 +1,13 @@
+<a name="0.1.1"></a>
+## 0.1.1 (2017-11-23)
+
+* 0.1.1 ([d7ccab8](https://github.com/gitScrum/get-cff/commit/d7ccab8))
+* chore: Update changelog ([8e1fb49](https://github.com/gitScrum/get-cff/commit/8e1fb49))
+* chore: update depDev ([5445993](https://github.com/gitScrum/get-cff/commit/5445993))
+* docs: check yaml support ([663f81e](https://github.com/gitScrum/get-cff/commit/663f81e))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2017-11-23)
 
