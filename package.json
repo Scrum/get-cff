@@ -37,6 +37,7 @@
     "dot file"
   ],
   "dependencies": {
+    "flatry": "^1.0.7",
     "js-yaml": "^3.10.0"
   },
   "devDependencies": {
@@ -60,7 +61,6 @@
     "eslint-plugin-html": "^3.2.1",
     "eslint-plugin-jest": "^21.3.2",
     "eslint-plugin-markdown": "^1.0.0-beta.7",
-    "flatry": "^1.0.7",
     "husky": "^0.14.3",
     "is-promise": "^2.1.0",
     "jest": "^21.2.1",
