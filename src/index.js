@@ -8,7 +8,7 @@ const methods = [
 	path => yaml.safeLoad(fs.readFileSync(path, 'utf-8'))
 ];
 
-export default path => new Promise((resolve, reject) => {
+export default path => new Promise(resolve => {
 	let err;
 	let res;
 	methods.some(method => {
@@ -17,7 +17,7 @@ export default path => new Promise((resolve, reject) => {
 	});
 
 	if (err) {
-		reject(err);
+		console.warn(err);
 	}
 
 	resolve(res);
