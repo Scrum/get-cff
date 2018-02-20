@@ -19,9 +19,6 @@
     "precommit": "clinton && lint-staged",
     "commitmsg": "commitlint --extends=@commitlint/config-angular -e",
     "postpublish": "conventional-changelog -i changelog.md -s -r 0 && git commit -am \"chore: Update changelog\"",
-    "patch": "np patch --any-branch --no-yarn",
-    "minor": "np minor --any-branch --no-yarn",
-    "major": "np major --any-branch --no-yarn",
     "prepare": "npm run build",
     "build": "rimraf lib && babel src -d lib",
     "test": "jest && codecov"
@@ -65,7 +62,6 @@
     "is-promise": "^2.1.0",
     "jest": "^21.2.1",
     "lint-staged": "^5.0.0",
-    "np": "^2.14.1",
     "rimraf": "^2.6.1"
   },
   "lint-staged": {
