@@ -66,7 +66,7 @@
   },
   "lint-staged": {
     "*.{js,html}": "eslint",
-    "./*.md": "eslint --rule indent: [error, 4] ."
+    "*.md": "eslint"
   },
   "babel": {
     "presets": [
