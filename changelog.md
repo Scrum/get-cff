@@ -1,5 +1,20 @@
+<a name="0.1.2"></a>
+## <small>0.1.2 (2018-02-20)</small>
+
+* 0.1.2 ([a844e6a](https://github.com/gitScrum/get-cff/commit/a844e6a))
+* build: drop np ([dbabec2](https://github.com/gitScrum/get-cff/commit/dbabec2))
+* build: update depDev ([d450548](https://github.com/gitScrum/get-cff/commit/d450548))
+* build: update depDev ([8f5d7bb](https://github.com/gitScrum/get-cff/commit/8f5d7bb))
+* build: update lint for md ([cd0d7c2](https://github.com/gitScrum/get-cff/commit/cd0d7c2))
+* build: update postpublish script ([205b148](https://github.com/gitScrum/get-cff/commit/205b148))
+* perf: change reject to warn ([4c5d857](https://github.com/gitScrum/get-cff/commit/4c5d857))
+* fix: flatry must be in dependencies ([411cc26](https://github.com/gitScrum/get-cff/commit/411cc26))
+* chore: Update changelog ([85f20b5](https://github.com/gitScrum/get-cff/commit/85f20b5))
+
+
+
 <a name="0.1.1"></a>
-## 0.1.1 (2017-11-23)
+## <small>0.1.1 (2017-11-23)</small>
 
 * 0.1.1 ([d7ccab8](https://github.com/gitScrum/get-cff/commit/d7ccab8))
 * chore: Update changelog ([8e1fb49](https://github.com/gitScrum/get-cff/commit/8e1fb49))
@@ -9,7 +24,7 @@
 
 
 <a name="0.1.0"></a>
-# 0.1.0 (2017-11-23)
+## 0.1.0 (2017-11-23)
 
 * 0.1.0 ([b2ad299](https://github.com/gitScrum/get-cff/commit/b2ad299))
 * Initial commit ([70b6c93](https://github.com/gitScrum/get-cff/commit/70b6c93))

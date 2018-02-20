@@ -1,6 +1,6 @@
 {
   "name": "get-cff",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Getting config from file",
   "license": "MIT",
   "repository": "gitScrum/get-cff",
@@ -18,10 +18,7 @@
   "scripts": {
     "precommit": "clinton && lint-staged",
     "commitmsg": "commitlint --extends=@commitlint/config-angular -e",
-    "postpublish": "conventional-changelog -i changelog.md -s -r 0 && git commit -am \"chore: Update changelog\"",
-    "patch": "np patch --any-branch --no-yarn",
-    "minor": "np minor --any-branch --no-yarn",
-    "major": "np major --any-branch --no-yarn",
+    "postpublish": "conventional-changelog -i changelog.md -s -r 0 && git commit -am \"build: update changelog\"",
     "prepare": "npm run build",
     "build": "rimraf lib && babel src -d lib",
     "test": "jest && codecov"
@@ -37,40 +34,40 @@
     "dot file"
   ],
   "dependencies": {
+    "flatry": "^1.0.8",
     "js-yaml": "^3.10.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^4.2.2",
-    "@commitlint/config-angular": "^4.2.1",
+    "@commitlint/cli": "^6.1.0",
+    "@commitlint/config-angular": "^6.1.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.26.0",
-    "babel-eslint": "^8.0.2",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.0",
     "babel-plugin-add-module-exports": "^0.2.0",
     "babel-plugin-array-includes": "^2.0.3",
     "babel-preset-env": "^1.4.0",
-    "babel-preset-minify": "^0.2.0",
+    "babel-preset-minify": "^0.3.0",
     "babel-register": "^6.24.1",
     "clinton": "^0.13.0",
     "codecov": "^3.0.0",
-    "conventional-changelog-cli": "^1.3.3",
-    "eslint": "^4.6.1",
-    "eslint-config-xo": "^0.19.0",
+    "conventional-changelog-cli": "^1.3.14",
+    "eslint": "^4.18.0",
+    "eslint-config-xo": "^0.20.1",
     "eslint-formatter-pretty": "^1.3.0",
     "eslint-plugin-babel": "^4.0.1",
-    "eslint-plugin-html": "^3.2.1",
-    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-html": "^4.0.2",
+    "eslint-plugin-jest": "^21.12.2",
     "eslint-plugin-markdown": "^1.0.0-beta.7",
-    "flatry": "^1.0.7",
     "husky": "^0.14.3",
     "is-promise": "^2.1.0",
-    "jest": "^21.2.1",
-    "lint-staged": "^5.0.0",
-    "np": "^2.14.1",
+    "jest": "^22.4.0",
+    "lint-staged": "^6.1.1",
     "rimraf": "^2.6.1"
   },
   "lint-staged": {
     "*.{js,html}": "eslint",
-    "./*.md": "eslint --rule indent: [error, 4] ."
+    "*.md": "eslint"
   },
   "babel": {
     "presets": [
@@ -127,6 +124,9 @@
     }
   },
   "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
   }
