@@ -19,7 +19,7 @@ Auto detect type file and import config from file. Support:
 npm i -S get-cff
 ```
 
-> **Note:** This project is compatible with node v4+
+> **Note:** This project is compatible with node v6+
 
 ## Usage
 
