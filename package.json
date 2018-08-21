@@ -104,7 +104,17 @@
     ],
     "extends": [
       "xo"
-    ]
+    ],
+    "rules": {
+          "indent": [
+            2,
+            4,
+            {
+              "SwitchCase": 1
+            }
+          ],
+          "capitalized-comments": "off"
+    }
   },
   "clinton": {
     "ignores": [
