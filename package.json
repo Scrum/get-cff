@@ -3,9 +3,9 @@
   "version": "0.1.2",
   "description": "Getting config from file",
   "license": "MIT",
-  "repository": "gitScrum/get-cff",
-  "homepage": "gitScrum/get-cff#readme",
-  "bugs": "gitScrum/get-cff/issues",
+  "repository": "Scrum/get-cff",
+  "homepage": "Scrum/get-cff#readme",
+  "bugs": "Scrum/get-cff/issues",
   "author": {
     "name": "Ivan Demidov",
     "email": "Scrum@list.ru",
