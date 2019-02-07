@@ -1,14 +1,29 @@
+## <small>0.1.4 (2019-02-07)</small>
+
+* build: update dep dev ([f0b7cd5](https://github.com/Scrum/get-cff/commit/f0b7cd5))
+* style: for jsFile ([41475e4](https://github.com/Scrum/get-cff/commit/41475e4))
+* test: add reject test ([914e91b](https://github.com/Scrum/get-cff/commit/914e91b))
+* fix: remove tabs for js because rules in config space ([c8bab11](https://github.com/Scrum/get-cff/commit/c8bab11))
+* perf: add reject if path not string ([308b0a9](https://github.com/Scrum/get-cff/commit/308b0a9))
+* perf: change some to find, close #11 ([8367737](https://github.com/Scrum/get-cff/commit/8367737)), closes [#11](https://github.com/Scrum/get-cff/issues/11)
+* docs: fix path to appveyor ([aee94f5](https://github.com/Scrum/get-cff/commit/aee94f5))
+* docs: fix username for appweyor ([5102939](https://github.com/Scrum/get-cff/commit/5102939))
+
+
+
 ## <small>0.1.3 (2018-08-21)</small>
 
-* docs: change user name6 close #12 ([69b94ff](https://github.com/Scrum/get-cff/commit/69b94ff)), closes [#12](https://github.com/Scrum/get-cff/issues/12)
-* docs: drop support old node ([b04eb5d](https://github.com/Scrum/get-cff/commit/b04eb5d))
+* 0.1.3 ([38ccf3a](https://github.com/Scrum/get-cff/commit/38ccf3a))
 * build: bump husky ([d17cfb1](https://github.com/Scrum/get-cff/commit/d17cfb1))
 * build: drop support node 5 ([8ad694c](https://github.com/Scrum/get-cff/commit/8ad694c))
 * build: rules for changelog ([400af92](https://github.com/Scrum/get-cff/commit/400af92))
 * build: share config for eslint ([6b51ef7](https://github.com/Scrum/get-cff/commit/6b51ef7))
+* build: update changelog ([eeec73b](https://github.com/Scrum/get-cff/commit/eeec73b))
 * build: update changelog ([6ebe201](https://github.com/Scrum/get-cff/commit/6ebe201))
 * build: update depDev ([b6cc0a2](https://github.com/Scrum/get-cff/commit/b6cc0a2))
 * build: update depDev ([81e1ea5](https://github.com/Scrum/get-cff/commit/81e1ea5))
+* docs: change user name6 close #12 ([69b94ff](https://github.com/Scrum/get-cff/commit/69b94ff)), closes [#12](https://github.com/Scrum/get-cff/issues/12)
+* docs: drop support old node ([b04eb5d](https://github.com/Scrum/get-cff/commit/b04eb5d))
 * ci: up node version ([39b1811](https://github.com/Scrum/get-cff/commit/39b1811))
 
 
@@ -57,9 +72,9 @@
 * chore: off ava ([e471b1c](https://github.com/Scrum/get-cff/commit/e471b1c))
 * chore: Update changelog ([9652dc1](https://github.com/Scrum/get-cff/commit/9652dc1))
 * chore: update depdev ([64f0cea](https://github.com/Scrum/get-cff/commit/64f0cea))
-* chore: update depDev ([635c172](https://github.com/Scrum/get-cff/commit/635c172))
-* chore: update depDev ([cc79784](https://github.com/Scrum/get-cff/commit/cc79784))
 * chore: update depDev ([e38b10d](https://github.com/Scrum/get-cff/commit/e38b10d))
+* chore: update depDev ([cc79784](https://github.com/Scrum/get-cff/commit/cc79784))
+* chore: update depDev ([635c172](https://github.com/Scrum/get-cff/commit/635c172))
 * feat: add read methods ([76a1f97](https://github.com/Scrum/get-cff/commit/76a1f97))
 * feat: add support yaml file, close #3 ([4effd93](https://github.com/Scrum/get-cff/commit/4effd93)), closes [#3](https://github.com/Scrum/get-cff/issues/3)
 * test: add test files ([ca62d62](https://github.com/Scrum/get-cff/commit/ca62d62))
