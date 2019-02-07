@@ -1,5 +1,5 @@
 const config = {
-    "property": "value"
+    property: 'value'
 };
 
 export default config;
