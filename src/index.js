@@ -8,7 +8,11 @@ const methods = [
     path => yaml.safeLoad(fs.readFileSync(path, 'utf-8'))
 ];
 
-export default path => new Promise(resolve => {
+export default path => new Promise((resolve, reject) => {
+    if (typeof path !== 'string') {
+        reject(new TypeError('Argument must be one of type string.'));
+    }
+
     let err;
     let res;
 
