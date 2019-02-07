@@ -3,22 +3,23 @@ import flatry from 'flatry';
 import yaml from 'js-yaml';
 
 const methods = [
-	path => require(path),
-	path => JSON.parse(fs.readFileSync(path, 'utf-8')),
-	path => yaml.safeLoad(fs.readFileSync(path, 'utf-8'))
+    path => require(path),
+    path => JSON.parse(fs.readFileSync(path, 'utf-8')),
+    path => yaml.safeLoad(fs.readFileSync(path, 'utf-8'))
 ];
 
 export default path => new Promise(resolve => {
-	let err;
-	let res;
-	methods.some(method => {
-		[err, res] = flatry(() => method(path));
-		return res;
-	});
+    let err;
+    let res;
 
-	if (err) {
-		console.warn(err);
-	}
+    methods.find(method => {
+        [err, res] = flatry(() => method(path));
+        return res;
+    });
 
-	resolve(res);
+    if (err) {
+        console.warn(err);
+    }
+
+    resolve(res);
 });
