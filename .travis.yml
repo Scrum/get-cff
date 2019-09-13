@@ -6,3 +6,6 @@ node_js:
   - v8
   - v7
   - v6
+
+install:
+  - npm install --registry https://registry.npmjs.org

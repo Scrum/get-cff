@@ -13,7 +13,7 @@ deploy: off
 
 install:
   - ps: Install-Product node $env:nodejs_version
-  - npm install
+  - npm install --registry https://registry.npmjs.org
 
 test_script:
   - node --version

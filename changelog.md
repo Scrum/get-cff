@@ -1,5 +1,22 @@
+## <small>0.1.5 (2019-09-13)</small>
+
+* build: fix path to readme ([f368c60](https://github.com/Scrum/get-cff/commit/f368c60))
+* build: update depDev ([35facc4](https://github.com/Scrum/get-cff/commit/35facc4))
+* build(deps): bump eslint-utils from 1.3.1 to 1.4.2 ([9437411](https://github.com/Scrum/get-cff/commit/9437411))
+* build(deps): bump handlebars from 4.0.11 to 4.1.2 ([09b83ee](https://github.com/Scrum/get-cff/commit/09b83ee))
+* build(deps): bump js-yaml from 3.12.1 to 3.13.1 ([fdf5189](https://github.com/Scrum/get-cff/commit/fdf5189))
+* build(deps): bump lodash from 4.17.4 to 4.17.11 ([28e0263](https://github.com/Scrum/get-cff/commit/28e0263))
+* build(deps): bump lodash.template from 4.4.0 to 4.5.0 ([9e4753c](https://github.com/Scrum/get-cff/commit/9e4753c))
+* build(deps): bump mixin-deep from 1.3.1 to 1.3.2 ([f4a4e57](https://github.com/Scrum/get-cff/commit/f4a4e57))
+* build(deps): bump sshpk from 1.13.1 to 1.16.1 ([13adce4](https://github.com/Scrum/get-cff/commit/13adce4))
+* ci: up to node v11 ([efb4a4b](https://github.com/Scrum/get-cff/commit/efb4a4b))
+
+
+
 ## <small>0.1.4 (2019-02-07)</small>
 
+* 0.1.4 ([f33e5c6](https://github.com/Scrum/get-cff/commit/f33e5c6))
+* build: update changelog ([bef9696](https://github.com/Scrum/get-cff/commit/bef9696))
 * build: update dep dev ([f0b7cd5](https://github.com/Scrum/get-cff/commit/f0b7cd5))
 * style: for jsFile ([41475e4](https://github.com/Scrum/get-cff/commit/41475e4))
 * test: add reject test ([914e91b](https://github.com/Scrum/get-cff/commit/914e91b))
