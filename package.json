@@ -12,7 +12,7 @@
     "url": "https://twitter.com/Scrum_"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@Scrum"
   },
   "main": "lib/index.js",
   "engines": {
